@@ -28,4 +28,3 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                 print(property, '--', f'{int(duration/60)}:{duration%60}')
             else:
                 print(property, '--', video.get(property))
-        break
